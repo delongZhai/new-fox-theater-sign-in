@@ -1,0 +1,102 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 16px;
+  margin: 0%;
+  padding: 0%;
+  height: 100vh;
+  background: #FFFFFF;
+  overflow: y;
+}
+
+div.nav {
+  -webkit-box-shadow: 0px 3px 22px -5px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 3px 22px -5px rgba(0,0,0,0.75);
+  box-shadow: 0px 3px 22px -5px rgba(0,0,0,0.75);
+  float: left;
+  height: 57px;
+  width: 100vw;
+  background-color: #ffffff;
+  position: fixed;
+  top: 0;
+}
+
+div.logo img{
+  width: 90px;
+  position: relative;
+  top: -8px;
+  left: 20px;
+}
+
+div.anchor, div.logo {
+  display: inline;
+}
+
+ul {
+  list-style-type: none;
+  display: inline;
+  margin: 0;
+  padding: 5.5px;
+  overflow: hidden;
+  position: absolute;
+  top: 0px;
+  left: 110px;
+  font-size: 2em;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  /* display: block; */
+  cursor: pointer;
+  color: #000000;
+  text-align: center;
+  padding: 9px 16px;
+  text-decoration: none;
+}
+
+.person img {
+  cursor: pointer;
+  position: absolute;
+  top: 0px;
+  right: 20px;
+  font-size: 50px;
+  padding: 4px 0px;
+  color: #ffffff;
+}
+
+li a:hover{
+  background-color: rgb(225, 241, 74);
+  color: #000000;
+}
+
+.btn-signin { 
+  color: #ffffff; 
+  /* add a function in javascript to change display to none once user sign in, then change display to initial display */
+  /* display: none; */
+  /* TODO: change this */
+  background-color: #dc3545; 
+  border-color: #EEEDF2; 
+  font-size: 1.5em;
+  text-align: center;
+  padding: 5px 12px;
+  cursor: pointer;
+  border-radius: 10px;
+  position: absolute;
+  top:5px;
+  right: 25px;
+} 
+
+#btn-profile{
+  visibility: hidden;
+  font-size: 1.5em;
+  text-align: center;
+  padding: 5px 12px;
+  cursor: pointer;
+  border-radius: 10px;
+  position: absolute;
+  top:8px;
+  right: 35px;
+}
+
